@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caffe Recursionのホームページです。" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="sanitize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+  <title>Cafe Recursion</title>
 </head>
+
 <body>
+<div class="vh-100">
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light mx-3">
+      
+  <a class="navbar-brand" href="#">Cafe Recursion</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home</a>
+        <a class="nav-item nav-link" href="#">Drink</a>
+        <a class="nav-item nav-link" href="#">Sweets</a>
+        <a class="nav-item nav-link" href="#">Food</a>
+        <a class="nav-item nav-link" href="#">Information</a>
+      </div>
+    </div>
+</nav><!-- /navbar -->
+
+<!-- slider -->
+<section>
+  <div class="slider mb-3">
+    <img src="img/coffee-2151200_1280.jpg" alt="">
+  </div>
+</section>
+<!-- /slider -->
+
+<h1 class="text-center">Welcome to Cafe Recursion</h1>
+
+<!-- cards -->
+<div class="container-fluid">
+  <div class="d-flex justify-content-center align-items-center pt-3">
+    <div class="row">
     
+    <!-- card 1 -->
+    <article class="col-12 col-lg-6 mt-2 mb-4">
+      <div class="card card-style">
+        <div class="card-body">
+          <h2>What's New?</h2>
+            <div class="d-flex justify-content-around align-items-center">
+              <p class="card-text col-5"> 春の新メニュー「フルーツパイ」をご用意しました。新鮮なフルーツと生クリームのハーモニーをお楽しみください。</p>
+              <img class="col-5" src="img/cake-4910417_1280.jpg" alt="フルーツパイ" />
+            </div>
+          </div>
+        </div>
+    </article>
+
+    <!-- card 2 -->
+    <article class="col-12 col-lg-6 mt-2 mb-4">
+      <div class="card card-style">
+        <div class="card-body">
+          <h2>Recommendation</h2>
+            <div class="d-flex justify-content-around align-items-center">
+              <p class="card-text col-5">今月のお薦めは「ラムダブレンド」。やや苦みのある上品な香りのコーヒーです。</p>
+              <img class="col-5" src="img/coffee-6632524_1280.jpg" alt="ラムダブレンド" />
+            </div>
+          </div>
+        </div>
+    </article>
+
+    </div>
+  </div>
+</div><!-- /cards -->
+
+<footer>
+  <p class="text-end px-3 pb-3">© 2022 Cafe Recursion. All Rights Reserved.</p>
+</footer>
+
+</div>
 </body>
+
 </html>
