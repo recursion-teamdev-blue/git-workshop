@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
+    <!-- Slider main container -->
+    <div class="swiper">
+         <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img class="slider-img" src="./images/coffee-2151200_1280.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img class="slider-img" src="./images/cake-1284548_1280.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img class="slider-img" src="./images/apple-pie-5479993_1280.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img class="slider-img" src="./images/pancakes-5989136_1280.jpg">
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+  
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+  
     
+    <script src="./js/slider.js"></script>
+
 </body>
 </html>
