@@ -28,7 +28,7 @@ h2 {
     justify-content: flex-start;
     align-items: center;
 }
-.slider img {
+.slider-img {
     min-width: 100%;
 }
 
@@ -46,3 +46,4 @@ h2 {
 footer p {
   font-size: 0.8em;
 }
+
