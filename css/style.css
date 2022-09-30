@@ -21,7 +21,7 @@ h2 {
 
 /* slider */
 .slider {
-    height: 500px;
+    height: 600px;
     overflow: hidden;
     display: flex;
     flex-flow: row nowrap;
