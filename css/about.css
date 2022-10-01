@@ -1,0 +1,13 @@
+/* topArea */
+#topArea {
+    min-width: 100%;
+    overflow: hidden;
+}
+#topArea img {
+    min-width: 100%;
+    max-height: 500px;
+}
+
+.btn {
+    background-color: white;
+}
