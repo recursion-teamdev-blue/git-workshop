@@ -41,6 +41,12 @@ h2 {
     min-width: 100%;
 }
 
+.menu-slider-img{
+  max-height: 100%;
+  width: 600px;
+  object-fit: cover;
+}
+
 .about-slider-img{
   max-height: 100%;
   width: 600px;
@@ -62,6 +68,11 @@ h2 {
   animation: zoomUp 10s linear 0s 1 normal both;  
 }
 
+.swiper-slide-active .menu-slider-img,
+.swiper-slide-duplicate-active .menu-slider-img,
+.swiper-slide-prev .menu-slider-img{
+  animation: zoomUp 10s linear 0s 1 normal both;  
+}
 
 
 /* card */
