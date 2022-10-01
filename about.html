@@ -12,7 +12,6 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/about.css">
-    <link rel="stylesheet" href="./css/tak.css">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -87,6 +86,30 @@
         </section>
         <!-- /coffee -->
 
+            <!-- 食べ物の写真2枚 -->
+        <div class="col-12 food-box d-flex align-items-end flex-wrap">
+            <div class="col-md-4 col-12 m-3">
+                <img src="./img/coffee-mocha.jpg" alt="" class="col-md-12 col-10">
+            </div>
+            <div class="col-md-7 col-12 m-3">
+                <img src="./img/croissant.jpg" alt="" class="col-12">
+            </div>
+        </div>
+
+        <!-- snap photos and share like never before -->
+        <div class="gradient d-flex align-items-center flex-wrap">
+            <div class="col-md-5 col-12 px-5">
+                <h1 class="p-1">Snap Photos and share like never before</h1>
+                <p class="explain-coffee mt-3">
+                    通常よりも浅く煎った豆で淹れたアメリカンコーヒーは、口当たりがさっぱりしているのが特長です。火入れの時間が短いため、コーヒー豆のスッキリした酸味を味わうことができます。「お湯で薄めただけのコーヒー」との認識は大間違い。また、和製英語のため、渡航したアメリカのカフェで「アメリカンコーヒー　プリーズ！」と注文しても通じません。
+                </p>
+            </div> 
+            <div class="col-7 p-3">
+                <img src="./img/cofeeshop.jpg" alt="" class="coffee-shop col-12">
+            </div>
+        </div>
+
+
         <div class="">
             <div class="row" style="height: 2000px;">
                 <div class="d-flex col-4 bg-light p-0">
@@ -126,10 +149,60 @@
         </div>
 
 
+        <!-- 問い合わせフォーム -->
+        <div class="p-4">
+            <div class="d-flex justify-content-around align-items-center">
+                <div>
+                    <h1>Reservation</h1>
+                </div>
+                <div>
+                    <h2 class="iform-text ">ご予約・お問い合わせはこちら</h2>
+                </div>
+            </div>
+            <div class="input-group flex-nowrap my-2">
+                <p class="iform-text mr-10">お名前　　　　</p>
+                <div class="">
+                    <input type="text" class="form-control" placeholder="FirstName">
+                </div>
+                <div class="mx-2">
+                    <input type="text" class="form-control" placeholder="LastName">
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <form class="input-group-prepend">
+                    <span class="iform-text">メールアドレス</span>
+                </form>
+                <input type="text" class="form-control" placeholder="Email address" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group d-flex align-items-center">
+                <form class="input-group-prepend">
+                  <span class="iform-text">問い合わせ内容</span>
+                </form>
+                <textarea class="form-control text-form" aria-label="With textarea"></textarea>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <button type="button" class="btn btn-outline-secondary">送信</button>
+            </div>
+        </div>
 
-        <footer>
-            <p class="text-end px-3 pb-3">© 2022 Cafe Recursion. All Rights Reserved.</p>
+        <footer class="">
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <div class="d-flex justify-content-around col-2 offset-4">
+                    <a href="https://www.instagram.com/"><img src="./img/instagram.jpeg" class="footericon"></a>
+                    <a href="https://twitter.com/home"><img src="./img/Twitter.jpeg" class="footericon"></a>
+                    <a href="https://www.facebook.com/"><img src="./img/Facebook.jpeg" class="footericon"></a>
+                </div>
+                <div class="col-4">
+                    <p class="footer-text">© 2022 Cafe Recursion. All Rights Reserved.</p>
+                </div>
+            </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./js/slider.js"></script>
+        <script type="text/javascript" src="./js/usercard.js"></script>
+    </div>
+
+
 
 </body>
 
