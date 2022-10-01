@@ -9,57 +9,129 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/sanitize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/tak.css">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <title>Cafe Recursion</title>
+    <!-- Swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
-    
 </head>
 
-
 <body>
-    <div class="">
-        <div class="row" style="height: 2000px;">
-            <div class="d-flex col-4 bg-light p-0">
-                <h1 class="mt-5">Access</h1>
-            </div>
-            <div class="col-8 row h-25">
-                <!-- オープン時間 -->
-                <div class="d-flex col-12 mt-3">
-                    <div class="col-7 mx-3 mt-3">
-                        <h2 class="mt-2 text-center">Cafe Recursion</h2>
-                    </div>
-                    <div class= "col-6 mt-3">
-                        <p>Open: 11:00 ~ 20:00<br>定休日　月曜日</p>
-                    </div>    
-                </div>
-                <!-- 住所 -->
-                <div class="col-12 m-0 d-flex justify-content-center" style="height: 150px;">
-                    <div class="col-10 border-top border-bottom">
-                        <p class="pt-3">address</p>
-                        <p>2640 Wagon Wheel Road, Apt#302, Oxnard CA 93036, United States</p>
-                    </div>
-                </div>
+   
 
-                <!-- 景観 -->
-                <div class="col-12 d-flex justify-content-center">
-                    <div class="col-9 pt-3 ">
-                        <img src="./img/cafe-shop-ga753bc777_1280 1.png" class=" img-fluid" >
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-3">
+
+            <a class="navbar-brand" href="#">Cafe Recursion</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">Drink</a>
+                    <a class="nav-item nav-link" href="#">Sweets</a>
+                    <a class="nav-item nav-link" href="#">Food</a>
+                    <a class="nav-item nav-link" href="#">Information</a>
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                </div>
+            </div>
+        </nav>
+        <!-- /navbar -->
+
+        <!-- topArea -->
+        <section class="bg-dark" id="topArea">
+                <div class="d-flex justify-content-center align-items-center text-center text-md-left">
+                    <div class="d-lg-flex col-12">
+                        <div class="col-lg-3 m-auto">
+                            <h1 class="text-light pb-3">About</h1>
+                            <p class="f-08 text-light px-3">This is the introduction page of our cafe. <br>Reservations can be made by filling out the form below.</p>
+                        </div>
+                        <!--slider-->
+                            <img src="img/about_top1.jpg" alt="" class="col-12 col-lg-10">
+                            <!-- <img src="img/about_top2.jpg" alt="" class="col-12 col-lg-10"> -->
+                            <!-- <img src="img/about_top3.jpg" alt="" class="col-12 col-lg-10"> -->
+                        <!--/slider-->
                     </div>
                 </div>
+        </section>
+        <!-- /topArea -->
 
-            </div>
-            <!-- map -->
-            <div id="map" class="">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.4908020789917!2d-119.18432968349015!3d34.236017880556524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e84c55bc7ab59f%3A0x870abd101b2abedf!2zMjY0MCBXYWdvbiBXaGVlbCBSZCwgT3huYXJkLCBDQSA5MzAzNiDjgqLjg6Hjg6rjgqvlkIjooYblm70!5e0!3m2!1sja!2sjp!4v1664367992939!5m2!1sja!2sjp" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- coffee -->
+        <section>
+        <div class="d-flex justify-content-start align-items-start py-5">
+            <div class="d-md-flex d-lg-flex col-12">
+                <div class="col-sm-12 col-md-7 col-lg-7 px-5 pb-5">
+                    <img src="img/coffee-g970086b4a_640.png" width="100" height="100" class="m-4">
+                    <h3 class="f-12">About Coffee Beans</h3>
+                    <!-- <p>We offer 30 types of coffee beans. We recommend the Lambda Blend, which is a mixture of five different types of coffee beans to make it easier to drink.</p> -->
+                    <p>コーヒー豆は30種類ご用意しています。おすすめは、5種類のコーヒー豆を混ぜて飲みやすくしたラムダブレンドです。</p>
+                    <h3 class="f-12">Our Special Blended Coffee</h3>
+                    <!-- <p>Lambda Blend carefully selects only the best quality coffee beans from Africa and Brazil, and uses a proprietary process to create a full-bodied, aromatic flavor. We offer a variety of blends that change daily. Please consult with our baristas and we will be happy to suggest the best product for you.</p> -->
+                    <p>ラムダブレンドは、アフリカとブラジルの最高品質のコーヒー豆だけを厳選し、独自の製法でコクと香りのある味わいに仕上げています。日替わりで様々なブレンドをご用意しています。</p>
+                <div class="text-end">
+                   <button type="button" class="btn btn-outline-primary">Learn more</button></div>
+                </div>
+                    <img src="img/coffee-g43a3cc264_640.jpg" alt="" class="col-sm-12 col-md-5 col-lg-5" width="100%" height="auto">
             </div>
         </div>
-    </div>
+        </section>
+        <!-- /coffee -->
 
+        <div class="">
+            <div class="row" style="height: 2000px;">
+                <div class="d-flex col-4 bg-light p-0">
+                    <h1 class="mt-5">Access</h1>
+                </div>
+                <div class="col-8 row h-25">
+                    <!-- オープン時間 -->
+                    <div class="d-flex col-12 mt-3">
+                        <div class="col-7 mx-3 mt-3">
+                            <h2 class="mt-2 text-center">Cafe Recursion</h2>
+                        </div>
+                        <div class= "col-6 mt-3">
+                            <p>Open: 11:00 ~ 20:00<br>定休日　月曜日</p>
+                        </div>    
+                    </div>
+                    <!-- 住所 -->
+                    <div class="col-12 m-0 d-flex justify-content-center" style="height: 150px;">
+                        <div class="col-10 border-top border-bottom">
+                            <p class="pt-3">address</p>
+                            <p>2640 Wagon Wheel Road, Apt#302, Oxnard CA 93036, United States</p>
+                        </div>
+                    </div>
+    
+                    <!-- 景観 -->
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="col-9 pt-3 ">
+                            <img src="./img/cafe-shop-ga753bc777_1280 1.png" class=" img-fluid" >
+                        </div>
+                    </div>
+    
+                </div>
+                <!-- map -->
+                <div id="map" class="">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.4908020789917!2d-119.18432968349015!3d34.236017880556524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e84c55bc7ab59f%3A0x870abd101b2abedf!2zMjY0MCBXYWdvbiBXaGVlbCBSZCwgT3huYXJkLCBDQSA5MzAzNiDjgqLjg6Hjg6rjgqvlkIjooYblm70!5e0!3m2!1sja!2sjp!4v1664367992939!5m2!1sja!2sjp" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer>
+            <p class="text-end px-3 pb-3">© 2022 Cafe Recursion. All Rights Reserved.</p>
+        </footer>
 
 </body>
+
+
 </html>
