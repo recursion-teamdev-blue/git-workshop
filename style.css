@@ -19,14 +19,6 @@ h2 {
   color: black;
 }
 
-/* font */
-.f-12 {
-  font-size: 1.2em;
-}
-.f-08 {
-  font-size: 0.8em;
-}
-
 /* slider */
 .slider {
     height: 500px;
@@ -53,6 +45,9 @@ h2 {
 /* footer */
 footer p {
   font-size: 0.8em;
+}
+
+footer{
   width: 100%;
   position: sticky;
   bottom: 0;
