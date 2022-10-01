@@ -1,5 +1,5 @@
 #  recursion-teamdev-blue 
 
 
-# github page
+# URL
 https://recursion-teamdev-blue.github.io/git-workshop/
