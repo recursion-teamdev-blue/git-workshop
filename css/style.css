@@ -59,12 +59,16 @@ footer p {
   background-color: white;
 }
 
-
 .footer-text{
   /* position:absolute; */
   top:40%;
   left:70%;
 }
+
+.footer-color{
+  background-color: white;
+}
+
 
 .footericon{
   height: 1.8em;
@@ -98,6 +102,20 @@ footer p {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .gradientAccess{
+    /* background:rgb(90, 44, 44); */
+    background:linear-gradient(90deg, white 0%, white 33%, #f1f1f1 33%, #f1f1f1 100%);
+  }
+}
+   
+@media screen and (max-width: 768px) {
+  .gradientAccess{
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(180deg, #f1f1f1 0%, #f1f1f1 100%);
+  }
+}
 
 
 .explain-coffee{
