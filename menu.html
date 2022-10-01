@@ -42,15 +42,39 @@
             </div>
         </nav>
         <!-- /navbar -->
-        
-        <div class="menu-mv d-flex">
-            <div class="menu-mv_title">
-                <h1>Menu</h1>
+
+        <!-- topArea -->
+        <section class="bg-dark" id="topArea">
+            <div class="d-flex justify-content-center align-items-center text-center text-md-left">
+                <div class="d-lg-flex col-12">
+                    <div class="col-lg-3 m-auto">
+                        <h1 class="text-light pb-3">About</h1>
+                        <p class="f-08 text-light px-3">This is the introduction page of our cafe. <br>Reservations can be made by filling out the form below.</p>
+                    </div>
+                    <!--slider-->
+                    <!-- <img src="img/about_top1.jpg" alt="" class="col-12 col-lg-10"> -->
+                    <!-- <img src="img/about_top2.jpg" alt="" class="col-12 col-lg-10"> -->
+                    <!-- <img src="img/about_top3.jpg" alt="" class="col-12 col-lg-10"> -->
+                    <div class="slider swiper ">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="about-slider-img" src="img/about_top1.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="about-slider-img" src="img/about_top2.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="about-slider-img" src="img/about_top3">
+                            </div>
+                        </div>
+                    </div>
+                    <!--/slider-->
+                </div>
             </div>
-            <div class="menu-mv_img">
-                <img src="./img/menu-mv.jpeg">
-            </div>
-        </div>
+    </section>
+    <!-- /topArea -->
+
         <div class="menu-block bg-white">
             <h2>Drinks</h2>
             <div>
@@ -84,6 +108,9 @@
                 </ul>
             </div>
         </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./js/slider.js"></script>
     </div>
 </body>
 </html>
