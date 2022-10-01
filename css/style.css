@@ -59,12 +59,16 @@ footer p {
   background-color: white;
 }
 
-
 .footer-text{
   /* position:absolute; */
   top:40%;
   left:70%;
 }
+
+.footer-color{
+  background-color: white;
+}
+
 
 .footericon{
   height: 1.8em;
