@@ -2,7 +2,7 @@ body {
   background: linear-gradient(to bottom, #fdfbfb, #dadada);
 }
 
-nav{
+nav, h3{
     font-family: 'Nothing You Could Do', cursive;
 }
 
@@ -20,6 +20,9 @@ h2 {
 }
 
 /* font */
+.f-16 {
+  font-size: 1.6em;
+}
 .f-12 {
   font-size: 1.2em;
 }
