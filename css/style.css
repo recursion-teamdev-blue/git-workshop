@@ -47,3 +47,59 @@ footer p {
   font-size: 0.8em;
 }
 
+footer{
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+
+
+.footer-text{
+  position:absolute;
+  top:40%;
+  left:70%;
+}
+
+.footericon{
+  height: 1.8em;
+}
+
+.w-300{
+  width: 200px;
+}
+
+.iform-text{
+  font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.6m;
+    color: rgb(161, 156, 142);
+    margin-right:pixabayco 10px ;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .gradient{
+    /* background:rgb(90, 44, 44); */
+    background:linear-gradient(90deg, rgb(90, 44, 44) 0%, rgb(90, 44, 44) 70%, white 70%, white 100%);
+  } 
+}
+   
+@media screen and (max-width: 768px) {
+  .gradient{
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(180deg, rgb(90, 44, 44) 0%, rgb(90, 44, 44) 100%);
+  }
+}
+
+
+
+.explain-coffee{
+  color: white;
+}
+
+.food-box{
+  width: 100vw;
+  background-color: rgba(255, 255, 0, 0.129);
+}
