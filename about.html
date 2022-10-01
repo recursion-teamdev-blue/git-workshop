@@ -23,6 +23,8 @@
 </head>
 
 <body>
+   
+
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light mx-3">
 
@@ -35,11 +37,9 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">Drink</a>
-                    <a class="nav-item nav-link" href="#">Sweets</a>
-                    <a class="nav-item nav-link" href="#">Food</a>
-                    <a class="nav-item nav-link" href="#">Information</a>
-                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link" href="menu.html">Menu</a>
+                    <a class="nav-item nav-link active">About</a>
+                    <a class="nav-item nav-link" href="index.html">Home</a>
                 </div>
             </div>
         </nav>
@@ -50,13 +50,11 @@
                 <div class="d-flex justify-content-center align-items-center text-center text-md-left">
                     <div class="d-lg-flex col-12">
                         <div class="col-lg-3 m-auto">
-                            <h1 class="text-light pb-3">About</h1>
-                            <p class="f-08 text-light px-3">This is the introduction page of our cafe. <br>Reservations can be made by filling out the form below.</p>
+                            <h1 class="pb-3">About</h1>
+                            <p class="f-08 text-light px-3">当店について<br><br>
+                                ご予約は下記のフォームから<br>承っております。</p>
                         </div>
                         <!--slider-->
-                        <!-- <img src="img/about_top1.jpg" alt="" class="col-12 col-lg-10"> -->
-                        <!-- <img src="img/about_top2.jpg" alt="" class="col-12 col-lg-10"> -->
-                        <!-- <img src="img/about_top3.jpg" alt="" class="col-12 col-lg-10"> -->
                         <div class="slider swiper ">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
@@ -67,11 +65,12 @@
                                     <img class="about-slider-img" src="img/about_top2.jpg">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="about-slider-img" src="img/about_top3">
+                                    <img class="about-slider-img" src="img/about_top3.jpg">
                                 </div>
                             </div>
                         </div>
                         <!--/slider-->
+
                     </div>
                 </div>
         </section>
@@ -79,20 +78,18 @@
 
         <!-- coffee -->
         <section>
-        <div class="d-flex justify-content-start align-items-start py-5">
+        <div class="d-flex justify-content-start align-items-center py-5">
             <div class="d-md-flex d-lg-flex col-12">
-                <div class="col-sm-12 col-md-7 col-lg-7 px-5 pb-5">
+                <div class="col-sm-12 col-md-6 col-lg-6 px-5 pb-5">
                     <img src="img/coffee-g970086b4a_640.png" width="100" height="100" class="m-4">
-                    <h3 class="f-12">About Coffee Beans</h3>
-                    <!-- <p>We offer 30 types of coffee beans. We recommend the Lambda Blend, which is a mixture of five different types of coffee beans to make it easier to drink.</p> -->
+                    <h3 class="f-16">About Coffee Beans</h3>
                     <p>コーヒー豆は30種類ご用意しています。おすすめは、5種類のコーヒー豆を混ぜて飲みやすくしたラムダブレンドです。</p>
-                    <h3 class="f-12">Our Special Blended Coffee</h3>
-                    <!-- <p>Lambda Blend carefully selects only the best quality coffee beans from Africa and Brazil, and uses a proprietary process to create a full-bodied, aromatic flavor. We offer a variety of blends that change daily. Please consult with our baristas and we will be happy to suggest the best product for you.</p> -->
+                    <h3 class="f-16">Our Special Blended Coffee</h3>
                     <p>ラムダブレンドは、アフリカとブラジルの最高品質のコーヒー豆だけを厳選し、独自の製法でコクと香りのある味わいに仕上げています。日替わりで様々なブレンドをご用意しています。</p>
                 <div class="text-end">
-                   <button type="button" class="btn btn-outline-primary">Learn more</button></div>
+                   <button type="button" class="btn btn-outline-secondary">Learn more</button></div>
                 </div>
-                    <img src="img/coffee-g43a3cc264_640.jpg" alt="" class="col-sm-12 col-md-5 col-lg-5" width="100%" height="auto">
+                    <div class="col-sm-12 col-md-6 col-lg-6 "><img src="img/coffee-g43a3cc264_640.jpg" alt="" class="img-fluid"></div>
             </div>
         </div>
         </section>
@@ -121,58 +118,46 @@
             </div>
         </div>
 
-
-        <div class="">
-            <div class="row" style="height: 2000px;">
-                <div class="d-flex col-4 bg-light p-0">
-                    <h1 class="mt-5">Access</h1>
+        <!-- アクセス部分作り直し -->
+        <div class="gradientAccess d-flex align-items-center flex-wrap">
+            <div class="col-md-4 col-12 text-center">
+                <h1>Access</h1>
+            </div>
+            <div class="d-flex col-md-8 col-12">
+                <div class="col-7 mx-3 mt-3">
+                    <h2 class="mt-2 text-center">Cafe Recursion</h2>
                 </div>
-                <div class="col-8 row h-25">
-                    <!-- オープン時間 -->
-                    <div class="d-flex col-12 mt-3">
-                        <div class="col-7 mx-3 mt-3">
-                            <h2 class="mt-2 text-center">Cafe Recursion</h2>
-                        </div>
-                        <div class= "col-6 mt-3">
-                            <p>Open: 11:00 ~ 20:00<br>定休日　月曜日</p>
-                        </div>    
+                <div class= "col-6 mt-3">
+                    <p>Open: 11:00 ~ 20:00<br>定休日　月曜日</p>
+                </div>  
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-8 col-12 border-top border-bottom">
+                    <div class="col-9 mx-5">
+                        <p class="pt-3">Address</p>
+                        <p>2640 Wagon Wheel Road, Apt#302, Oxnard CA 93036, United States</p>
                     </div>
-                    <!-- 住所 -->
-                    <div class="col-12 m-0 d-flex justify-content-center" style="height: 150px;">
-                        <div class="col-10 border-top border-bottom">
-                            <p class="pt-3">address</p>
-                            <p>2640 Wagon Wheel Road, Apt#302, Oxnard CA 93036, United States</p>
-                        </div>
+                    <div class="col-10 mx-auto mb-3">
+                        <img src="./img/cafe-shop-ga753bc777_1280 1.png" class="img-fluid" >
                     </div>
-    
-                    <!-- 景観 -->
-                    <div class="col-12 d-flex justify-content-center">
-                        <div class="col-9 pt-3 ">
-                            <img src="./img/cafe-shop-ga753bc777_1280 1.png" class=" img-fluid" >
-                        </div>
-                    </div>
-    
                 </div>
-                <!-- map -->
-                <div id="map" class="">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.4908020789917!2d-119.18432968349015!3d34.236017880556524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e84c55bc7ab59f%3A0x870abd101b2abedf!2zMjY0MCBXYWdvbiBXaGVlbCBSZCwgT3huYXJkLCBDQSA5MzAzNiDjgqLjg6Hjg6rjgqvlkIjooYblm70!5e0!3m2!1sja!2sjp!4v1664367992939!5m2!1sja!2sjp" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div id="map" class="col-12 d-flex justify-content-center my-3 mb-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.4908020789917!2d-119.18432968349015!3d34.236017880556524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e84c55bc7ab59f%3A0x870abd101b2abedf!2zMjY0MCBXYWdvbiBXaGVlbCBSZCwgT3huYXJkLCBDQSA5MzAzNiDjgqLjg6Hjg6rjgqvlkIjooYblm70!5e0!3m2!1sja!2sjp!4v1664367992939!5m2!1sja!2sjp" width="90%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
 
 
+
         <!-- 問い合わせフォーム -->
-        <div class="p-4">
+        <div class="container p-4">
             <div class="d-flex justify-content-around align-items-center">
                 <div>
                     <h1>Reservation</h1>
                 </div>
-                <div>
-                    <h2 class="iform-text ">ご予約・お問い合わせはこちら</h2>
-                </div>
             </div>
             <div class="input-group flex-nowrap my-2">
-                <p class="iform-text mr-10">お名前　　　　</p>
+                <p class="iform-text p-1">お名前　　　　</p>
                 <div class="">
                     <input type="text" class="form-control" placeholder="FirstName">
                 </div>
@@ -182,22 +167,22 @@
             </div>
             <div class="input-group mb-3">
                 <form class="input-group-prepend">
-                    <span class="iform-text">メールアドレス</span>
+                    <span class="iform-text p-1">メールアドレス</span>
                 </form>
                 <input type="text" class="form-control" placeholder="Email address" aria-describedby="basic-addon1">
             </div>
             <div class="input-group d-flex align-items-center">
                 <form class="input-group-prepend">
-                  <span class="iform-text">問い合わせ内容</span>
+                  <span class="iform-text p-1">問い合わせ内容</span>
                 </form>
                 <textarea class="form-control text-form" aria-label="With textarea"></textarea>
             </div>
             <div class="d-flex justify-content-center mt-3">
-                <button type="button" class="btn btn-outline-secondary">送信</button>
+                <button type="button" class="btn btn-outline-secondary">Submit</button>
             </div>
         </div>
 
-        <footer class="">
+        <footer class="footer-color">
             <div class="d-flex justify-content-center align-items-center p-3">
                 <div class="d-flex justify-content-around col-2 offset-4">
                     <a href="https://www.instagram.com/"><img src="./img/instagram.jpeg" class="footericon"></a>

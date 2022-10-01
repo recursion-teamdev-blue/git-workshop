@@ -2,7 +2,7 @@ body {
   background: linear-gradient(to bottom, #fdfbfb, #dadada);
 }
 
-nav{
+nav, h3{
     font-family: 'Nothing You Could Do', cursive;
 }
 
@@ -20,6 +20,9 @@ h2 {
 }
 
 /* font */
+.f-16 {
+  font-size: 1.6em;
+}
 .f-12 {
   font-size: 1.2em;
 }
@@ -29,7 +32,7 @@ h2 {
 
 /* slider */
 .slider {
-    height: 400px;
+    height: 700px;
     overflow: hidden;
     display: flex;
     flex-flow: row nowrap;
@@ -38,12 +41,14 @@ h2 {
 }
 
 .slider-img {
-    min-width: 100%;
+  /* max-height: 100%;   */
+  min-width: 100%;
+  object-fit: cover;
 }
 
 .menu-slider-img{
-  max-height: 100%;
-  width: 600px;
+  height: 800px;
+  /* width: 600px; */
   object-fit: cover;
 }
 
@@ -94,12 +99,16 @@ footer p {
   background-color: white;
 }
 
-
 .footer-text{
   /* position:absolute; */
   top:40%;
   left:70%;
 }
+
+.footer-color{
+  background-color: white;
+}
+
 
 .footericon{
   height: 1.8em;
@@ -133,6 +142,20 @@ footer p {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .gradientAccess{
+    /* background:rgb(90, 44, 44); */
+    background:linear-gradient(90deg, white 0%, white 33%, #f1f1f1 33%, #f1f1f1 100%);
+  }
+}
+   
+@media screen and (max-width: 768px) {
+  .gradientAccess{
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(180deg, #f1f1f1 0%, #f1f1f1 100%);
+  }
+}
 
 
 .explain-coffee{
